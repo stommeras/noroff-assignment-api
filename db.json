@@ -1,0 +1,25 @@
+{
+  "trivia": [
+    {
+      "id": 1,
+      "username": "dewaldels",
+      "score": 0
+    }
+  ],
+  "translations": [
+    {
+      "id": 1,
+      "username": "dewaldels",
+      "translations": []
+    }
+  ],
+  "pokemon": [
+    {
+      "id": 1,
+      "username": "dewaldels",
+      "pokemon": [
+        "bulbasaur"
+      ]
+    }
+  ]
+}
