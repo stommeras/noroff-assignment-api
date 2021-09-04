@@ -23,10 +23,10 @@ Follow the below instructions to get your API setup and ready for use.
 [Trivia API Docs](./docs/trivia.md)
 
 ### Lost in Translation API
-[Trivia API Docs](./docs/lost-in-translation.md)
+[Lost In Translation](./docs/lost-in-translation.md)
 
 ### Pokemon Trainer API
-[Trivia API Docs](./docs/lost-in-translation.md)
+[Pokemon Trainer](./docs/lost-in-translation.md)
 
 
 ## Special thanks to Typicode for json-server
