@@ -3,7 +3,7 @@
 ## Open Endpoints
 Open endpoints do not require authentication.
 
-### Lost In Translation Users `GET /translations`
+### Lost in Translation Users `GET /translations`
 #### Sample Response
 ```json
 [
@@ -19,14 +19,14 @@ Open endpoints do not require authentication.
 
 Protected endpoints require the Bearer Token Authorization header with the API key as value.
 
-### Trivia Users `POST /translations`
+### Lost in Translation Users `POST /translations`
 
 #### Sample Code
 ```javascript
 const apiURL = 'your-api-url-goes-here'
 const apiKey = 'your-public-api-key-goes-here'
 
-fetch(`${apiURL}/trivia`, {
+fetch(`${apiURL}/translations`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${apiKey}`,
@@ -39,12 +39,12 @@ fetch(`${apiURL}/trivia`, {
     })
     .then(response => {
       if (!response.ok) {
-        throw new Error('Could not create new Trivia user')
+        throw new Error('Could not create new user')
       }
       return response.json()
     })
     .then(newUser => {
-      // newUser is the new trivia user with an id
+      // newUser is the new user with an id
     })
     .catch(error => {
     })
