@@ -20,14 +20,16 @@ Follow the below instructions to get your API setup and ready for use.
 ## API Key and Authorization Header
 
 Lastly, On the Heroku Dashboard, go to your application, find the settings tab and look for the Config Vars section
-Locate the "Reveal Config Vars" button and click it 
-<figure>
-<img src="docs/assets/config-vars.png" alt="Reveal Heroku's Config Vars" width="350" />
-</figure>
+Locate the "Reveal Config Vars" button and click it
+
+![img.png](./docs/assets/config-vars.png)
 
 #### **Enter TWO config vars:**
-`NODE_ENV` - production
-`API_KEY` - any randomly generated string (64 characters)
+```bash
+NODE_ENV : production
+API_KEY : any randomly generated string (64 characters)
+```
+See the screenshot below.
 
 ![img.png](./docs/assets/config-vars-values.png)
 
@@ -45,7 +47,6 @@ Each API endpoint contains both open and protected endpoints. All `GET` endpoint
 ### Pokemon Trainer API
 [Pokemon Trainer](./docs/lost-in-translation.md)
 
-
-## Special thanks to Typicode for json-server
+# Special thanks to Typicode for json-server
 
 [Github: json-server](https://github.com/typicode/json-server)
