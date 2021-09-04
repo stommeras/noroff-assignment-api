@@ -4,26 +4,22 @@
       "id": 1,
       "username": "dewaldels",
       "score": 0
-    },
-    {
-      "username": "sherrif",
-      "score": 20,
-      "id": 2
     }
   ],
   "translations": [
     {
       "id": 1,
       "username": "dewaldels",
-      "translations": []
+      "translations": ["hello world", "react is fun"]
     }
   ],
-  "pokemon": [
+  "trainers": [
     {
       "id": 1,
-      "username": "dewaldels",
+      "username": "ash",
       "pokemon": [
-        "bulbasaur"
+        "bulbasaur",
+        "pikachu"
       ]
     }
   ]
