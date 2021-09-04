@@ -45,7 +45,7 @@ Each API endpoint contains both open and protected endpoints. All `GET` endpoint
 [Lost In Translation](./docs/lost-in-translation.md)
 
 ### Pokemon Trainer API
-[Pokemon Trainer](./docs/lost-in-translation.md)
+[Pokemon Trainer](./docs/pokemon-trainer.md)
 
 # Special thanks to Typicode for json-server
 
