@@ -22,7 +22,7 @@ Follow the below instructions to get your API setup and ready for use.
 Lastly, On the Heroku Dashboard, go to your application, find the settings tab and look for the Config Vars section
 Locate the "Reveal Config Vars" button and click it 
 <figure>
-<img src="docs/assets/config-vars.png" alt="Reveal Heroku's Config Vars" />
+<img src="docs/assets/config-vars.png" alt="Reveal Heroku's Config Vars" width="350" />
 </figure>
 
 #### **Enter TWO config vars:**
