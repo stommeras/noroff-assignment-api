@@ -16,8 +16,18 @@ Follow the below instructions to get your API setup and ready for use.
    5. Push the files to your heroku app: `git push heroku master`
 5. The app will be automatically deployed and started.
 6. Check the terminal for your API's Url.
+7. Lastly, On the Heroku Dashboard, go to your application, find the settings tab and look for the Config Vars section
+   1. Locate the "Reveal Config Vars" button and click it 
+   ![img.png](./docs/assets/config-vars.png)
+   2. Enter TWO config vars:
+   3. NODE_ENV - production
+   4. API_KEY - any randomly generated string (64 characters)
+   ![img.png](./docs/assets/config-vars-values.png)
+
 
 ## Accessing Endpoints
+
+Each API endpoint contains both open and protected endpoints. All `GET` endpoints are open. Any other method `POST`, `PUT`, `PATCH` and `DELETE` are protected with a Bearer Token Authorization header.
 
 ### Trivia Game API
 [Trivia API Docs](./docs/trivia.md)
