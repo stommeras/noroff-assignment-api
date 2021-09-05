@@ -60,7 +60,7 @@ fetch(`${apiURL}/trivia`, {
 }
 ```
 
-### Trivia Users `PATCH /translations`
+### Trivia Users `PATCH /trivia`
 The `PATCH` method is used to update a single record
 
 #### Sample Code
