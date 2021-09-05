@@ -58,3 +58,36 @@ fetch(`${apiURL}/trainers`, {
     "pokemon": []
 }
 ```
+
+### Lost in Translation Users `PATCH /trainers`
+The `PATCH` method is used to update a single record
+
+#### Sample Code
+```javascript
+const apiURL = 'your-api-url-goes-here'
+const apiKey = 'your-public-api-key-goes-here'
+const userId = 1 // Update user with id 1
+
+fetch(`${apiURL}/trainers/${userId}`, {
+        method: 'PATCH', // NB: Set method to PATCH
+        headers: {
+          'Authorization': `Bearer ${apiKey}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            // Provide new pokemon to add trainer with id 1
+            pokemon: ['charizard', 'squirtle'] 
+        })
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Could not update trainer')
+      }
+      return response.json()
+    })
+    .then(updatedTrainer => {
+      // updatedTrainer is the trainer user the Patched data
+    })
+    .catch(error => {
+    })
+```
