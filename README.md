@@ -1,5 +1,13 @@
 # Noroff Assignment API
 
+The Noroff Assignment API will be used to complete each of the assignments using JavaScript Frameworks.
+
+## Prerequisites
+In order to use the API you will require the following:
+1. Install [Git](https://git-scm.com/) 
+2. Install [NodeJS LTS](https://nodejs.org/en/) with npm **(It must be the LTS version.)**
+3. Create a [Heroku](https://www.heroku.com/) account (free)
+
 ## Instructions
 Follow the below instructions to get your API setup and ready for use.
 
