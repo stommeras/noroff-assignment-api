@@ -20,7 +20,7 @@ Open endpoints do not require authentication.
 
 Protected endpoints require the Bearer Token Authorization header with the API key as value.
 
-### Lost in Translation Users `POST /trivia`
+### Trivia Users `POST /trivia`
 
 #### Sample Code
 ```javascript
@@ -58,4 +58,37 @@ fetch(`${apiURL}/trivia`, {
     "username": "the-trivia-master",
     "highScore": 0
 }
+```
+
+### Trivia Users `PATCH /translations`
+The `PATCH` method is used to update a single record
+
+#### Sample Code
+```javascript
+const apiURL = 'your-api-url-goes-here'
+const apiKey = 'your-public-api-key-goes-here'
+const userId = 1 // Update user with id 1
+
+fetch(`${apiURL}/trivia/${userId}`, {
+        method: 'PATCH', // NB: Set method to PATCH
+        headers: {
+          'Authorization': `Bearer ${apiKey}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            // Provide new highScore to add to user with id 1
+            highScore: 100  
+        })
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Could not update high score')
+      }
+      return response.json()
+    })
+    .then(updatedUser => {
+      // updatedUser is the user with the Patched data
+    })
+    .catch(error => {
+    })
 ```
