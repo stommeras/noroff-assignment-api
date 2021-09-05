@@ -11,17 +11,17 @@ In order to use the API you will require the following:
 ## Instructions
 Follow the below instructions to get your API setup and ready for use.
 
-1. Clone the repository
+1. Clone the repository to your computer
 2. Run `npm install` in the root of the cloned repository
-3. Ensure you have heroku installed [Heroku CLI Install Guide](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
-4. Run the following commands:
-   1. Remove the cloned repository: `git remote remove origin`
-   2. Create a new Heroku App: `heroku create <choose-a-name-for-your-app>`
-      1. e.g. `heroku create noroff-assignment-api`
-      2. **Please note:** The name chosen must be unique on the `.herokuapp.com` domain
-   3. Ensure all files are added to git `git add .`
-   4. Commit all the files: `git commit -m "FEAT: Heroku"`
-   5. Push the files to your heroku app: `git push heroku master`
+3. Ensure you have the [Heroku CLI Installed](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) by running `heroku --version` in your terminal app
+4. Run the following commands (In the project root directory):
+   * Remove the cloned repository: `git remote remove origin`
+   * Create a new Heroku App: `heroku create <choose-a-name-for-your-app>`
+      * e.g. `heroku create noroff-assignment-api`
+      * **Please note:** The name chosen must be unique on the `.herokuapp.com` domain
+   * Ensure all files are added to git `git add .`
+   * Commit all the files: `git commit -m "FEAT: Heroku"`
+   * Push the files to your heroku app: `git push heroku master`
 5. The app will be automatically deployed and started.
 6. Check the terminal for your API's Url.
 
