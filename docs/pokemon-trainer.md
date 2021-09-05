@@ -1,9 +1,9 @@
-# Pokemon Trainer API
+# Pokémon Trainer API
 
 ## Open Endpoints
 Open endpoints do not require authentication.
 
-### Pokemon Trainer Users `GET /trainers`
+### Pokémon Trainer Users `GET /trainers`
 #### Sample Response
 ```json
 [
@@ -20,6 +20,8 @@ Open endpoints do not require authentication.
 Protected endpoints require the Bearer Token Authorization header with the API key as value.
 
 ### Lost in Translation Users `POST /trainers`
+
+Use the `POST` method to create a new Pokémon trainer in the API database.
 
 #### Sample Code
 ```javascript
@@ -75,7 +77,7 @@ fetch(`${apiURL}/trainers/${userId}`, {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            // Provide new pokemon to add trainer with id 1
+            // Provide new Pokémon to add trainer with id 1
             pokemon: ['charizard', 'squirtle'] 
         })
     })
