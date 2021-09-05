@@ -18,7 +18,9 @@ Open endpoints do not require authentication.
 ### Trivia Users `GET /trivia?username=<query>`
 You can filter results to get a specific user from the API. It uses the standard URL Query String syntax. 
 
-e.g. Search for a user with username `mega-mind` you can make a `GET` request to `apiUrl/trivia?username=mega-mind`. This will return an array of all users that match the username of mega-mind.
+> **e.g.** Search for a user with username `mega-mind` you can make a `GET` request to `apiUrl/trivia?username=mega-mind`.
+> 
+> This will return an array of **all users** that match the username of mega-mind.
 
 #### Sample Code
 ```javascript

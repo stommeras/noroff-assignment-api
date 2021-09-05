@@ -15,6 +15,27 @@ Open endpoints do not require authentication.
 ]
 ```
 
+### Pokémon Users `GET /trainers?username=<query>`
+You can filter results to get a specific user from the API. It uses the standard URL Query String syntax.
+
+> **e.g.** Search for a user with username `mega-mind` you can make a `GET` request to `apiUrl/trivia?username=ash`.
+>
+> This will return an array of **all users** that match the username of ash.
+
+#### Sample Code
+```javascript
+const apiURL = 'your-api-url-goes-here'
+const username = 'ash'
+
+fetch(`${apiURL}/trainers?username=${username}`)
+    .then(response => response.json())
+    .then(results => {
+        // results will be an array of users that match the username of ash.
+    })
+    .catch(error => {
+    })
+```
+
 ## Protected Endpoints
 
 Protected endpoints require the Bearer Token Authorization header with the API key as value.
