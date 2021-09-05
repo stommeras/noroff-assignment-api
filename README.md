@@ -27,8 +27,9 @@ Follow the below instructions to get your API setup and ready for use.
 
 ## API Key and Authorization Header
 
-Lastly, On the Heroku Dashboard, go to your application, find the settings tab and look for the Config Vars section
-Locate the "Reveal Config Vars" button and click it
+Lastly, on your [Heroku Dashboard](https://dashboard.heroku.com), open your API application, find the settings tab and look for the Config Vars section
+
+#### Locate the "Reveal Config Vars" button and click it
 
 ![img.png](./docs/assets/config-vars.png)
 
@@ -40,7 +41,6 @@ API_KEY : any randomly generated string (64 characters)
 See the screenshot below.
 
 ![img.png](./docs/assets/config-vars-values.png)
-
 
 ## Accessing Endpoints
 
