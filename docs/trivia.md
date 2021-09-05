@@ -50,7 +50,7 @@ const apiKey = 'your-public-api-key-goes-here'
 fetch(`${apiURL}/trivia`, {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${apiKey}`,
+            'X-API-Key': apiKey,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({ 
@@ -92,7 +92,7 @@ const userId = 1 // Update user with id 1
 fetch(`${apiURL}/trivia/${userId}`, {
         method: 'PATCH', // NB: Set method to PATCH
         headers: {
-          'Authorization': `Bearer ${apiKey}`,
+            'X-API-Key': apiKey,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({

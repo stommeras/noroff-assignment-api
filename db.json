@@ -4,13 +4,21 @@
       "id": 1,
       "username": "dewaldels",
       "highScore": 0
+    },
+    {
+      "username": "gingerbread",
+      "score": 0,
+      "id": 2
     }
   ],
   "translations": [
     {
       "id": 1,
       "username": "dewaldels",
-      "translations": ["hello world", "react is fun"]
+      "translations": [
+        "hello world",
+        "react is fun"
+      ]
     }
   ],
   "trainers": [

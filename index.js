@@ -17,14 +17,7 @@ server.use((request, response, next) => {
 
     if (PROTECTED_HTTP_METHODS.includes(request.method)) {
 
-        const {authorization = ''} = request.headers
-        let token = null
-
-        if (authorization.includes('Bearer')) {
-            token = authorization.split(' ').pop()
-        } else {
-            token = authorization
-        }
+        const token = request.headers['x-api-key'] || ''
 
         if (!token) {
             return response.status('401').json({error: 'You are not allowed to access this resource'})
@@ -35,7 +28,7 @@ server.use((request, response, next) => {
         if (token === key) {
             return next()
         } else {
-            return response.status('401').json({error: 'You are not allowed to access this resource'})
+            return response.status('401').json({error: 'Invalid API Key provided - are not allowed to access this resource'})
         }
     }
 
