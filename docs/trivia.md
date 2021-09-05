@@ -20,7 +20,7 @@ Open endpoints do not require authentication.
 
 Protected endpoints require the Bearer Token Authorization header with the API key as value.
 
-### Trivia Users `POST /trivia`
+### 🔒 Trivia Users `POST /trivia`
 
 #### Sample Code
 ```javascript
@@ -60,7 +60,7 @@ fetch(`${apiURL}/trivia`, {
 }
 ```
 
-### Trivia Users `PATCH /trivia`
+### 🔒 Trivia Users `PATCH /trivia`
 The `PATCH` method is used to update a single record
 
 #### Sample Code

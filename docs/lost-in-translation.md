@@ -19,7 +19,7 @@ Open endpoints do not require authentication.
 
 Protected endpoints require the Bearer Token Authorization header with the API key as value.
 
-### Lost in Translation Users `POST /translations`
+### 🔒 Lost in Translation Users `POST /translations`
 
 #### Sample Code
 ```javascript
@@ -59,7 +59,7 @@ fetch(`${apiURL}/translations`, {
 }
 ```
 
-### Lost in Translation Users `PATCH /translations`
+### 🔒 Lost in Translation Users `PATCH /translations`
 The `PATCH` method is used to update a single record
 
 #### Sample Code

@@ -19,7 +19,7 @@ Open endpoints do not require authentication.
 
 Protected endpoints require the Bearer Token Authorization header with the API key as value.
 
-### Pokémon Trainer Users `POST /trainers`
+### 🔒 Pokémon Trainer Users `POST /trainers`
 
 Use the `POST` method to create a new Pokémon trainer in the API database.
 
@@ -61,7 +61,7 @@ fetch(`${apiURL}/trainers`, {
 }
 ```
 
-### Pokémon Trainer Users `PATCH /trainers`
+### 🔒 Pokémon Trainer Users `PATCH /trainers`
 The `PATCH` method is used to update a single record
 
 #### Sample Code
