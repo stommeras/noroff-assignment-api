@@ -44,7 +44,7 @@ See the screenshot below.
 
 ## Accessing Endpoints
 
-Each API endpoint contains both open and protected endpoints. All `GET` endpoints are open. Any other method `POST`, `PUT`, `PATCH` and `DELETE` is protected with a Bearer Token Authorization header.
+Each API endpoint contains both open and protected endpoints. All `GET` endpoints are open. Any other method `POST`, `PUT`, `PATCH` and `DELETE` is protected with the `X-API-KEY` header.
 
 ### Trivia Game API
 [Trivia API Docs](./docs/trivia.md)

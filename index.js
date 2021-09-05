@@ -9,13 +9,13 @@ if (process.env.NODE_ENV !== 'PRODUCTION') {
 }
 
 
-const PROTECTED_HTTP_METHODS = ['POST', 'PATCH', 'DELETE', 'PUT']
+const HTTP_METHOD_GET = 'get'
 
 server.use(middlewares)
 
 server.use((request, response, next) => {
 
-    if (PROTECTED_HTTP_METHODS.includes(request.method)) {
+    if (request.method.toLowerCase() !== HTTP_METHOD_GET) {
 
         const token = request.headers['x-api-key'] || ''
 

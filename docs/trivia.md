@@ -38,7 +38,7 @@ fetch(`${apiURL}/trivia?username=${username}`)
 
 ## Protected Endpoints
 
-Protected endpoints require the Bearer Token Authorization header with the API key as value.
+Protected endpoints require the X-API-Key header with the API key as value.
 
 ### 🔒 Trivia Users `POST /trivia`
 
