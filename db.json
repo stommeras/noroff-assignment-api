@@ -110,5 +110,16 @@
       "strings": 6,
       "image": "https://static.gibson.com/product-images/USA/USAPAH661/Vintage%20Cherry/front-banner-1600_900.png"
     }
+  ],
+  "coffee": [
+    {
+      "id": 1,
+      "username": "dewaldels",
+      "orders": [
+        "Large Americano, no sugar, no milk", 
+        "Regular Cappuccino, no sugar",
+        "Small Decaf, no sugar, no milk"
+      ]
+    }
   ]
 }
