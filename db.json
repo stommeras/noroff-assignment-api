@@ -121,5 +121,16 @@
         "Small Decaf, no sugar, no milk"
       ]
     }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "What's the answer?",
+      "answer": "It's always been 42",
+      "tags": ["general", "react", "test"],
+      "askedBy": "dewald",
+      "createdAt": "2021-12-01 14:00",
+      "active": true
+    }
   ]
 }
