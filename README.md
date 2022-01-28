@@ -11,7 +11,7 @@ In order to use the API you will require the following:
 ## Instructions
 Follow the below instructions to get your API setup and ready for use.
 
-1. Clone the repository to your computer
+1. Fork this repository and clone the forked repository to your computer
 2. Run `npm install` in the root of the cloned repository
 3. Ensure you have the [Heroku CLI Installed](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) by running `heroku --version` in your terminal app
 4. Run the following commands (In the project root directory):
