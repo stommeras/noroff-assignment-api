@@ -31,6 +31,13 @@
       ]
     }
   ],
+  "users": [
+    {
+      "id": 1,
+      "username": "mrbeta",
+      "favourites": []
+    }
+  ],
   "guitars": [
     {
       "id": "916E597F-C629-4306-BD31-BBF767D9A8AA",
